@@ -10,7 +10,7 @@ const Game = () => {
         const form = document.querySelector('.control');
         const chat = document.querySelector('.chat');
 
-        const newGame = new Test({
+        new Test({
             arenas: arenas,
             form: form,
             chat: chat,
