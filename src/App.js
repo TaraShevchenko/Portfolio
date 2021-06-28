@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {Route} from "react-router-dom";
+import Navigation from "./components/Navigation";
+import Home from "./components/Home";
+import Portfolio from "./components/Portfolio";
+import MortalKombat from "./components/Portfolio/MortalKombat";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Navigation />
+
+            <div className="contentWrapper">
+                <div className="content">
+                    <Route path="/" exact>
+                        <Home />
+                    </Route>
+                    <Route path="/portfolio">
+                        <Portfolio />
+                    </Route>
+
+
+                </div>
+            </div>
+            <MortalKombat />
+        </div>
+    );
 }
 
 export default App;
