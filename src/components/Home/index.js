@@ -25,11 +25,11 @@ const Home = () => {
                 <div className={style.descriptionInner}>
 
                     <div className={style.left}>
-                        <div className={style.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, id,
-                            numquam! Accusamus architecto cum cumque cupiditate deleniti deserunt eos et explicabo ipsa
-                            minima nostrum obcaecati odio placeat quod, rerum, similique.
+                        <div className={style.text}>I working in company <a href="https://softpro.ua/">softpro</a> one year on position front-end
+                            developer. My responsibility include site layout, creating scripts on Js and displaying
+                            information from database. In company <span>i work</span> with <b>Html/Css</b>, <b>Bootstrap</b>, <b>Sass</b>, <b>Js</b>, <b>HandleBars</b>,
+                            <b> sql</b>. Also at home i work and lern <b>React</b> and <b>Redux</b>.
                         </div>
-                        {/*<button className={style.button}>Read More</button>*/}
                     </div>
 
                     <div className={style.right}>
@@ -45,17 +45,22 @@ const Home = () => {
 
                         <div className={style.rightItem}>
                             <div>Address:</div>
-                            <div>Ave 11, New York, USA</div>
+                            <div>Kiev, Ukraine</div>
+                        </div>
+
+                        <div className={style.rightItem}>
+                            <div>Experience:</div>
+                            <div>1 year</div>
                         </div>
 
                         <div className={style.rightItem}>
                             <div>Email:</div>
-                            <div>main@gmail.com</div>
+                            <a href="mailto:tarashevchenkowork@gmail.com">tarashevchenkowork@gmail.com</a>
                         </div>
 
                         <div className={style.rightItem}>
                             <div>Phone:</div>
-                            <div>+38(093)572-7997</div>
+                            <a href="tel:+380935727997">+38(093)572-7997</a>
                         </div>
 
                     </div>

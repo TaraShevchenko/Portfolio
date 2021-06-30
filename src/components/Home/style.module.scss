@@ -14,7 +14,7 @@
         width: 100%;
         height: auto;
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-        animation: morph 8s ease-in-out 1s infinite;
+        animation: morph 6s ease-in-out 1s infinite;
         overflow: hidden;
     }
 }
@@ -62,6 +62,19 @@
         color: #fff;
     }
 
+    a {
+        text-decoration: none;
+        color: #bbb;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 1px;
+        transition: all .5s;
+        &:hover {
+            color: #fff;
+            border-color: #fff;
+            transition: all .5s;
+        }
+    }
+
     .descriptionInner {
         display: flex;
     }
@@ -77,6 +90,12 @@
             font-weight: 400;
             color: #bbb;
             margin-bottom: 30px;
+
+            b {
+                font-size: 16px;
+                color: #f3f1f1;
+            }
+
         }
     }
 

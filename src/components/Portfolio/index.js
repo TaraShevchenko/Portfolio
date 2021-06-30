@@ -19,7 +19,8 @@ const Portfolio = () => {
                         <div className={style.description}>
                             <div className={style.title}>MORTAL KOMBAT</div>
                             <div className={style.text}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, minima!
+                                In this app i practise with vanilla js, namely with functions and classes, with
+                                async js - Promise and Fetch. This app is result of course JS Marathon for Zar Zakharov.
                             </div>
 
                         </div>
@@ -37,7 +38,25 @@ const Portfolio = () => {
                         <div className={style.description}>
                             <div className={style.title}>WAY CHAT</div>
                             <div className={style.text}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, minima!
+                                It is a sandbox for learning react and redux. Here I experement with different
+                                libraries, state management. In this app i use React, Redux, React-Redux, React-Router-Dom, React-Bootstrap.
+                            </div>
+                        </div>
+                    </NavLink>
+                </div>
+
+                <div className={style.portfolioItemWrapper}>
+                    <NavLink to="/WayChat" className={style.portfolioItem}>
+
+                        <div className={style.questionMark}>
+
+                        </div>
+                        <img src={Waychat} alt="Waychat"/>
+                        <div className={style.description}>
+                            <div className={style.title}>WAY CHAT</div>
+                            <div className={style.text}>
+                                It is a sandbox for learning react and redux. Here I experement with different
+                                libraries, state management. In this app i use React, Redux, React-Redux, React-Router-Dom, React-Bootstrap.
                             </div>
                         </div>
                     </NavLink>

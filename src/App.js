@@ -18,8 +18,6 @@ function App() {
                     <Route path="/portfolio">
                         <Portfolio />
                     </Route>
-
-
                 </div>
             </div>
             <MortalKombat />
