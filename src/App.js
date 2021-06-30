@@ -9,7 +9,6 @@ function App() {
         <div className="main">
             <Navigation/>
 
-
             <div className="content">
                 <Route path="/" exact>
                     <About/>
