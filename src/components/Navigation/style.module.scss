@@ -1,13 +1,13 @@
 .navigation {
   height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
+  width: 400px;
   display: flex;
   align-items: center;
-  z-index: 10;
-  padding: 0 100px;
+  justify-content: center;
   background-color: #000;
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 }
 
 .logo {
