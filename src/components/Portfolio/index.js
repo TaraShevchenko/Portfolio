@@ -2,6 +2,7 @@ import React from 'react';
 import style from './style.module.scss';
 import MortalKombat from '../../assets/MortalKombat.png';
 import Waychat from '../../assets/Waychat.png';
+import cityCalculate from '../../assets/CityCalculate.png';
 import {NavLink} from "react-router-dom";
 
 const Portfolio = () => {
@@ -51,7 +52,7 @@ const Portfolio = () => {
                         <div className={style.questionMark}>
 
                         </div>
-                        <img src={Waychat} alt="Waychat"/>
+                        <img src={cityCalculate} alt="cityCalculate"/>
                         <div className={style.description}>
                             <div className={style.title}>WAY CHAT</div>
                             <div className={style.text}>
