@@ -13,11 +13,11 @@ const About = () => {
                         Taras Shevchenko
                     </div>
                     <div className={style.job}>
-                        Web developer. My stack React, Redux, Js, Handlebars, html/css, sass/less.
+                        Web developer. My stack is React, Redux, Js, Handlebars, html/css, sass/less.
                     </div>
                 </div>
                 <div className={style.tail}>
-                    <div className={style.text}>I am working in company <a href="https://softpro.ua/">softpro</a> for a one year on position front-end
+                    <div className={style.text}>I am working in <a href="https://softpro.ua/">softpro</a> for a one year on position front-end
                         developer. My responsibilities are create site layout, write scripts on Js and display
                         information from database. I am familiar with <b>Html/Css</b>, <b>Bootstrap</b>, <b>Sass</b>, <b>Js</b>, <b>HandleBars</b>,
                         <b> sql</b>. Also i have several pat-projects on <b>React</b> and <b>Redux</b>.

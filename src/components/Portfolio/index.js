@@ -20,8 +20,8 @@ const Portfolio = () => {
                         <div className={style.description}>
                             <div className={style.title}>MORTAL KOMBAT</div>
                             <div className={style.text}>
-                                In this app i practise with vanilla js, namely with functions and classes, with
-                                async js - Promise and Fetch. This app is result of course JS Marathon for Zar Zakharov.
+                                In this app i practise with vanilla js, such and functions and classes, with
+                                async js - Promise and Fetch. I developed this app while attending JS Marathon for Zar Zakharov course.
                             </div>
 
                         </div>
@@ -39,8 +39,8 @@ const Portfolio = () => {
                         <div className={style.description}>
                             <div className={style.title}>WAY CHAT</div>
                             <div className={style.text}>
-                                It is a sandbox for learning react and redux. Here I experement with different
-                                libraries, state management. In this app i use React, Redux, React-Redux, React-Router-Dom, React-Bootstrap.
+                                This is my sandbox for learning react and redux. Here I experiment with different
+                                libraries and state management. In this app i use React, Redux, React-Redux, React-Router-Dom, React-Bootstrap.
                             </div>
                         </div>
                     </NavLink>
@@ -54,10 +54,9 @@ const Portfolio = () => {
                         </div>
                         <img src={cityCalculate} alt="cityCalculate"/>
                         <div className={style.description}>
-                            <div className={style.title}>WAY CHAT</div>
+                            <div className={style.title}>CIVILIZATION CITY CALCULATE</div>
                             <div className={style.text}>
-                                It is a sandbox for learning react and redux. Here I experement with different
-                                libraries, state management. In this app i use React, Redux, React-Redux, React-Router-Dom, React-Bootstrap.
+                               This is my first-app for board game Civilization. This app is used for calculating in-game economics
                             </div>
                         </div>
                     </NavLink>
