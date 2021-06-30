@@ -20,7 +20,7 @@ const Portfolio = () => {
                         <div className={style.description}>
                             <div className={style.title}>MORTAL KOMBAT</div>
                             <div className={style.text}>
-                                In this app i practise with vanilla js, such and functions and classes, with
+                                In this app i practise with vanilla js, particularly with functions and classes,
                                 async js - Promise and Fetch. I developed this app while attending JS Marathon for Zar Zakharov course.
                             </div>
 
@@ -39,7 +39,7 @@ const Portfolio = () => {
                         <div className={style.description}>
                             <div className={style.title}>WAY CHAT</div>
                             <div className={style.text}>
-                                This is my sandbox for learning react and redux. Here I experiment with different
+                                This is my sandbox for learning react and redux. Here I am experimenting with different
                                 libraries and state management. In this app i use React, Redux, React-Redux, React-Router-Dom, React-Bootstrap.
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const Portfolio = () => {
                         <div className={style.description}>
                             <div className={style.title}>CIVILIZATION CITY CALCULATE</div>
                             <div className={style.text}>
-                               This is my first-app for board game Civilization. This app is used for calculating in-game economics
+                               This is my first-app for board game Civilization. This app is used for calculating in-game economics.
                             </div>
                         </div>
                     </NavLink>
