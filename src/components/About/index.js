@@ -18,7 +18,7 @@ const About = () => {
                 </div>
                 <div className={style.tail}>
                     <div className={style.text}>I am working in company <a href="https://softpro.ua/">softpro</a> for a one year on position front-end
-                        developer. My responsibility include site layout, creat scripts on Js and display
+                        developer. My responsibilities are create site layout, writez` scripts on Js and display
                         information from database. In company <span>i work</span> with <b>Html/Css</b>, <b>Bootstrap</b>, <b>Sass</b>, <b>Js</b>, <b>HandleBars</b>,
                         <b> sql</b>. Also at home i work and lern <b>React</b> and <b>Redux</b>.
                     </div>
