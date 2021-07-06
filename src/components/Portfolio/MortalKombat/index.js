@@ -1,20 +1,22 @@
-import React from 'react';
+import React from "react";
+import './MortalKombat.css';
 import {Route} from "react-router-dom";
-import PlayerChose from "./PlayerChose";
-import Game from "./Game";
+import SelectFighters from "./components/SelectFighters";
+import Game from "./components/Game";
+
 
 const MortalKombat = () => {
     return (
-        <div className="app">
-            <Route path="/MK/chose">
-                <PlayerChose />
+        <div className="root">
+            <Route path='/mortal-kombat/' exact>
+                <SelectFighters/>
             </Route>
 
-            <Route path="/MK/game">
-                <Game />
+            <Route path='/mortal-kombat/game'>
+                <Game/>
             </Route>
         </div>
     );
-};
+}
 
 export default MortalKombat;
