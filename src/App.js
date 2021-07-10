@@ -4,6 +4,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import MortalKombat from "./components/Portfolio/MortalKombat";
 import Civa from "./components/Portfolio/Civilization";
+import WayChat from "./components/Portfolio/WayChat";
 
 function App() {
     return (
@@ -32,7 +33,7 @@ function App() {
                 </div>
             </Route>
 
-            <Route path="/way-chat">
+                <Route path="/way-chat">
                 <NavLink to="/portfolio" className="appCloseButton">
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
                          className="bi bi-arrow-left-short" viewBox="0 0 16 16">
@@ -41,7 +42,7 @@ function App() {
                     </svg>
                 </NavLink>
                 <div className="app">
-
+                    <WayChat />
                 </div>
             </Route>
 

@@ -68,7 +68,7 @@ const Portfolio = () => {
 
                         <div className={style.description}>
                             <div className={style.title}>CIVILIZATION CITY CALCULATE</div>
-                            <div className={style.text}>
+                            <div className={style.text}>`
                                 This is my first-app for board game Civilization. This app is used for calculating
                                 in-game economics.
                             </div>

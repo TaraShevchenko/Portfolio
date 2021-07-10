@@ -1,5 +1,5 @@
 import style from './style.module.scss';
-import photo from '../../assets/MyPhoto1.jpg'
+import photo from '../../assets/noPhoto.png'
 
 const About = () => {
     return (
@@ -11,7 +11,7 @@ const About = () => {
                     </div>
                     <div className={style.details}>
                         <div className={style.name}>
-                            Taras Shevchenko
+                            Untiled
                         </div>
                         <div className={style.job}>
                             Web developer. My stack is React, Redux, Js, Handlebars, html/css, sass/less.
