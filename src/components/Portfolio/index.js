@@ -10,7 +10,7 @@ const Portfolio = () => {
         <div className="customContainer">
             <div className={style.portfolioIPage}>
                 <div className={style.portfolioItemWrapper}>
-                    <NavLink to="/mortal-kombat" className={style.portfolioItem}>
+                    <NavLink target="_blank" rel="noreferrer nofollow" to="/https://mkgame.netlify.app/" className={style.portfolioItem}>
 
                         <div className={style.questionMark}>
 
@@ -56,7 +56,7 @@ const Portfolio = () => {
                 </div>
 
                 <div className={style.portfolioItemWrapper}>
-                    <NavLink to="/civilization" className={style.portfolioItem}>
+                    <NavLink target="_blank" rel="noreferrer nofollow" to="/https://civilization.netlify.app/" className={style.portfolioItem}>
 
                         <div className={style.questionMark}>
 

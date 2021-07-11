@@ -36,7 +36,7 @@ const Navigation = () => {
                             </svg>
                         </a>
 
-                        <a target="_blank" rel="noreferrer nofollow" href="https://cutt.ly/2mTcCoY">
+                        <a target="_blank" rel="noreferrer nofollow" href="https://www.linkedin.com/in/taras-shevchenko-4b3307209/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                  className="bi bi-linkedin" viewBox="0 0 16 16">
                                 <path
