@@ -3,14 +3,13 @@ import style from './style.module.scss';
 import MortalKombat from './assets/Mortal.png';
 import Waychat from './assets/WayChat.png';
 import cityCalculate from './assets/Civa.png';
-import {NavLink} from "react-router-dom";
 
 const Portfolio = () => {
     return (
         <div className="customContainer">
             <div className={style.portfolioIPage}>
                 <div className={style.portfolioItemWrapper}>
-                    <NavLink target="_blank" rel="noreferrer nofollow" to="/https://mkgame.netlify.app/" className={style.portfolioItem}>
+                    <a target="_blank" rel="noreferrer nofollow" href="/https://mkgame.netlify.app/" className={style.portfolioItem}>
 
                         <div className={style.questionMark}>
 
@@ -30,11 +29,11 @@ const Portfolio = () => {
 
                         </div>
 
-                    </NavLink>
+                    </a>
                 </div>
 
                 <div className={style.portfolioItemWrapper}>
-                    <NavLink to="/way-chat" className={style.portfolioItem}>
+                    <a href="https://way-chat.netlify.app/" target="_blank" rel="noreferrer nofollow" className={style.portfolioItem}>
 
                         <div className={style.questionMark}>
 
@@ -52,11 +51,11 @@ const Portfolio = () => {
                                 React-Router-Dom, React-Bootstrap.
                             </div>
                         </div>
-                    </NavLink>
+                    </a>
                 </div>
 
                 <div className={style.portfolioItemWrapper}>
-                    <NavLink target="_blank" rel="noreferrer nofollow" to="/https://civilization.netlify.app/" className={style.portfolioItem}>
+                    <a target="_blank" rel="noreferrer nofollow" href="/https://civilization.netlify.app/" className={style.portfolioItem}>
 
                         <div className={style.questionMark}>
 
@@ -73,7 +72,7 @@ const Portfolio = () => {
                                 in-game economics.
                             </div>
                         </div>
-                    </NavLink>
+                    </a>
                 </div>
 
             </div>
